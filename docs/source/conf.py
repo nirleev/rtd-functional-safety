@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'A low-power nuclear reactor controller'
+copyright = '2022, nirleev'
+author = 'nirleev'
 
 release = '0.1'
 version = '0.1.0'
@@ -20,7 +20,6 @@ extensions = [
 ]
 
 intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 intersphinx_disabled_domains = ['std']
