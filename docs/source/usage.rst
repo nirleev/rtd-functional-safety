@@ -6,29 +6,17 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use a low-power nuclear reactor controller, first compile it using gcc:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+   $ gcc main.cpp -o main
 
-Creating recipes
+List of commands
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+.. code-block:: console
 
-.. autofunction:: lumache.get_random_ingredients
-
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
-
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
-
+   ENTER - get measurements of temperature sensors
+   h - display the list of commands
+   q - quit
