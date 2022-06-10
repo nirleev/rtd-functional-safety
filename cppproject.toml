@@ -1,0 +1,7 @@
+[build-system]
+requires = ["Linux"]
+
+[project]
+name = "A low-power nuclear reactor controller"
+authors = [{name = "nirleev"}]
+dynamic = ["version", "description"]
